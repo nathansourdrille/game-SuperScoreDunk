@@ -17,7 +17,7 @@ begin
 	repeat
 		cursoroff;
 		option := ' '; 
-		Screen1(option); // lancement de la première fenêtre graphique (SDL)
+		Screen1(option); // lancement de la première fenêtre graphique
 		MenuPrincipal(ouvrirMenuScreen2(option)); // lancement de la seconde fenêtre graphique et exécution du menu 
 		termine_musique(sound) // quitter proprement la SDL son
 	until false;
