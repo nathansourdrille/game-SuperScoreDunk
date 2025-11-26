@@ -1,0 +1,13 @@
+*.exe
+*.dll
+*.o
+*.ppu
+*.a
+*.mp3
+*.jpg
+*.jpeg
+*.png
+fp.dir/
+*.inc
+*.ttf
+
